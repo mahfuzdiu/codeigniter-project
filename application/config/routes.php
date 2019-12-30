@@ -67,4 +67,7 @@ $route['product/(:num)'] = 'ProductController/productDetails/$1';
 //route parameter (int/string)
 $route['company/(:any)'] = 'ProductController/productsByCompany/$1';
 
+//api call
+$route['posts'] = 'PostController/getPosts';
+
 
