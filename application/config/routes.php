@@ -58,6 +58,13 @@ $route['translate_uri_dashes'] = FALSE;
 //loads root route only
 $route['default_controller'] = 'welcome/index';
 
+//login
+$route['login'] = 'LoginController';
+$route['login/user'] = 'LoginController/login';
+
+//dashboard
+$route['dashboard'] = 'DashboardController/index';
+
 //custom routes
 $route['products'] = 'ProductController/index';
 
